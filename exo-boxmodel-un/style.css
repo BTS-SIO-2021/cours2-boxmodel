@@ -1,0 +1,31 @@
+p, span {
+    font-size : 1.2em;
+}
+
+.p1 {
+    background-color: lightblue;
+    width: 400px;
+    height: 200px;
+}
+
+.p2 {
+    background-color: lightgreen;
+    padding: 40px;
+}
+
+.s1 {
+    background-color: orange;
+    /*
+    Pour modifier les éléments de type inline, je ne vais pas utiliser les propriétés ci-dessous : 
+    width: 400px;
+    height: 200px;
+    car elles ne fonctionnent qu'avec les éléments de type bloc, je vais donc jouer sur le padding et le margin
+    */
+    padding: 2em;
+    display: inline-block; /* je change le comportement naturel de mon élément span pour éviter le chevauchement avec l'élément p précédent. J'utilise la propriété css display avec la valeur inline-block qui permet donc que mon élément ce comporte comme un bloc et donc vienne à la suite de mon élément p mais aussi que l'élément span qui le suit reste sur la même manière. */
+}
+
+.s2 {
+    background-color: yellow;
+}
+

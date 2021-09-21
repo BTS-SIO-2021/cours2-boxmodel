@@ -1,0 +1,40 @@
+p, span {
+    font-size: 1.2em;
+}
+
+.d1 {
+    width: 50%;
+    height: 200px;
+    border: solid 2px black;
+    overflow: hidden; /* lien vers la doc https://developer.mozilla.org/fr/docs/Web/CSS/overflow */
+}
+
+.d2 {
+    width: 400px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.p1 {
+    background-color: lightblue;
+    width: 400px;
+    height: 100px;
+}
+
+.p2 {
+    background-color: lightgreen;
+    width : 100%;
+    height: 25%;
+}
+
+.p3 {
+    background-color: orange;
+    width : 200px;
+    height: 50px;
+}
+
+.p4 {
+    background-color: yellow;
+    width : 50%;
+    height: 25%;
+}
