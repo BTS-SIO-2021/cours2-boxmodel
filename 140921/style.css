@@ -1,0 +1,44 @@
+html {
+    font-size: 50px
+}
+
+body {
+    background-color: aqua;
+    width: 100%;
+    font-size: 24px;
+}
+
+
+div {
+    width: 100%;
+    font-size: 12px;
+}
+
+
+h1 {
+    width: 20%;
+    padding: 50px 10px;
+    border: solid 10px black;
+    margin: 20px 10px;
+    /* J'ai défini ma font-size à 24px donc si j'utilise 2em c'est égal à 24x2 soit 48 px pour mon h1 dans cet exemple */
+    font-size: 1rem;
+}
+
+/* Comment exprimer des tailles ? 
+
+Il existe plusieurs metriques pour définir les tailles en css, certaines sont absolues, d'autres relatives
+
+1) pixels (px)
+Il permet de fixer des tailles de manière invariable
+
+2) % Unité variable, dépendra de son parent. 
+
+3) em unité variable basé sur la valeur de font-size du parent
+
+4) rem unité variable basé sur la valeur de l'élément root (balise <html>)
+
+La valeur par défaut du rem et du em si aucune définition de règle css différente sera de 16 px
+
+Vous voulez tout savoir sur les unités de mesure CSS ? C'est par ici que ça se passe : 
+https://developer.mozilla.org/fr/docs/Web/CSS/length
+*/
